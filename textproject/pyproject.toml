@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textproject-etl"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Pipeline ETL assíncrono production-ready com Streamlit, Pandas e OpenAI."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Portfolio Developer" }]
+dependencies = [
+  "pandas>=2.2.0",
+  "streamlit>=1.35.0",
+  "openai>=1.30.0",
+  "python-dotenv>=1.0.1",
+]

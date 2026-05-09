@@ -1,0 +1,8 @@
+__pycache__/
+.env
+.venv/
+.streamlit/
+
+# Ignorar CSVs gerados, mas manter o input versionado
+*.csv
+!data/SDW2023.csv
