@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv() # Isso carrega as variáveis do arquivo .env
 import asyncio
 import logging
 import os
@@ -82,7 +84,7 @@ async def _enrich_message_for_user(
     async with semaphore:
         try:
             response = await client.chat.completions.create(
-                model="gpt-4.1-mini",
+                model="gpt-4o-mini",
                 messages=[
                     {"role": "system", "content": "Responda sempre em pt-BR, de forma objetiva."},
                     {"role": "user", "content": prompt},
