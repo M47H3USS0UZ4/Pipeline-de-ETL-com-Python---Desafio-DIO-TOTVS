@@ -1,4 +1,4 @@
-# textproject — ETL Assíncrono Production-Ready (OpenAI + Streamlit)
+# ETL Assíncrono Production-Ready (OpenAI + Streamlit)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![OpenAI](https://img.shields.io/badge/OpenAI-Async%20SDK-black)
